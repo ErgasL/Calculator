@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: inherit;
+    text-align: center;
+    padding-bottom: 10;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25;
+    margin: 2px;
+    border: none;
+    background-color: #607d8b;
+    border-radius: 15px;
+    outline: 0;
+    cursor: pointer;
+    animation-delay: 0, 5s;
+}
+
+.button:active {
+    color: red
+}
+
+.button:after {
+    animation-delay: 0, 3;
+}
+
+.bg {
+    background: linear-gradient(to right, red, blue);
+    height: 100%
+}
+
+.textview {
+    width: 217px;
+    margin: 5px;
+    font-size: 25;
+    padding: 5px;
+    border: none;
+    border-radius: 10px
+}
+
+.container {
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    background-color: inherit
+}
